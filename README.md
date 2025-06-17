@@ -10,11 +10,12 @@ To download the IDE, use this link: https://www.jetbrains.com/pycharm/download/?
 
 ## Steps:
 - Download the code to your computer
-- Open the folder with your favorite IDE, in cmd or powershell
-- Open a new terminal in the IDE, or if you're using cmd or powershell, verify that the runtime environment (.venv) is active with this command: .\venv\Scripts\activate
-- In the IDE, click run, or if you're using the terminal, use the following command: python -m flask run or you can also use flask run
-- The console will give you a URL to open in your browser. You can copy it or ctrl + click to open it.
-- Enter two numbers in the respective fields and select the desired operation.
+- Open the folder with your preferred IDE in CMD or PowerShell
+- Create a .venv folder by entering the following command in the terminal: python -m venv .venv
+- Verify that the virtual execution environment (.venv) is active with this command: .venv\Scripts\activate
+- If you get an error when importing Flask, enter the following command in the terminal: pip install flask
+- In the IDE, click "Run" or, if using the terminal, use the following command: 'python -m flask run' or you can also use 'flask run'
+- The console will provide you with a URL to open in your browser. You can copy it or use Ctrl + click to open it. - Enter two numbers in the corresponding fields and select the desired operation.
 If you choose division by zero, you will receive an error.
 
 ### Extra Note:
